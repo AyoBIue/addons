@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
   name = 'addons',
-  version = '0.0.3',
+  version = '0.0.4',
   author = 'AyoBlue',
   author_email = 'ajtorres0119@gmail.com',
   description = ('Just some basic addons..'),
