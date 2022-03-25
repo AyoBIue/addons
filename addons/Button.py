@@ -1,8 +1,8 @@
 from typing import Optional, Union
-import discord
+import disnake
 
 class Button:
-  def __init__(self, style: Optional[int], label='None', custom_id=None, url=None, emoji: Optional[Union[str, discord.Emoji]]=None):
+  def __init__(self, style: Optional[int], label='None', custom_id=None, url=None, emoji: Optional[Union[str, disnake.Emoji]]=None):
     self.label = label
     self.style = style
     self.custom_id = custom_id
