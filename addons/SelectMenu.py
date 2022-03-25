@@ -1,5 +1,3 @@
-import discord
-
 class SelectMenu:
   def __init__(self, custom_id, placeholder, min=1, max=1):
     self.custom_id = str(custom_id)
@@ -8,7 +6,7 @@ class SelectMenu:
     self.max = max
     self.options = None
 
-  def add_option(self, label, value, description=None, emoji: discord.Emoji=None):
+  def add_option(self, label, value, description=None, emoji=None):
     _data = {
       'label': str(label),
       'value': str(value),
