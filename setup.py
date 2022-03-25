@@ -5,5 +5,6 @@ setup(
   version = '0.0.1',
   author = 'AyoBlue',
   author_email = 'ajtorres0119@gmail.com',
-  description = ('Just some basic addons..')
+  description = ('Just some basic addons..'),
+  packages = ['addons']
 )
